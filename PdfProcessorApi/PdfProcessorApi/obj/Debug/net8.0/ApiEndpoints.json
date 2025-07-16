@@ -1,0 +1,173 @@
+[
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.DocKeyController",
+    "Method": "GetDocKeys",
+    "RelativePath": "api/DocKey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PdfProcessorApi.Models.DocKey, PdfProcessorApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.DocKeyController",
+    "Method": "PostDocKey",
+    "RelativePath": "api/DocKey",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "docKey",
+        "Type": "PdfProcessorApi.Models.DocKey",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PdfProcessorApi.Models.DocKey",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.DocKeyController",
+    "Method": "GetDocKey",
+    "RelativePath": "api/DocKey/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PdfProcessorApi.Models.DocKey",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.DocKeyController",
+    "Method": "PutDocKey",
+    "RelativePath": "api/DocKey/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "docKey",
+        "Type": "PdfProcessorApi.Models.DocKey",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.DocKeyController",
+    "Method": "DeleteDocKey",
+    "RelativePath": "api/DocKey/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.LogProcesamientoController",
+    "Method": "GetLogs",
+    "RelativePath": "api/LogProcesamiento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[PdfProcessorApi.Models.LogProcesamiento, PdfProcessorApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.LogProcesamientoController",
+    "Method": "PostLog",
+    "RelativePath": "api/LogProcesamiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "PdfProcessorApi.Models.LogProcesamiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PdfProcessorApi.Models.LogProcesamiento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PdfProcessorApi.Controllers.UploadController",
+    "Method": "UploadPdf",
+    "RelativePath": "api/Upload/pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
